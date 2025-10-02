@@ -1,4 +1,4 @@
-=== Dataview Sample Plugin ===
+=== PostView ===
 Contributors: the-ank
 Tags: dataview, table, wordpress, plugin
 Requires at least: 5.0
