@@ -1,0 +1,20 @@
+{
+  "name": "dataview-simple-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "wp-scripts build src/index.js --output-path=build",
+    "start": "wp-scripts start src/index.js --output-path=build",
+    "lint": "wp-scripts lint-js",
+    "lint:fix": "wp-scripts lint-js src --fix",
+    "format": "prettier --write 'src/**/*.{js,jsx}'"
+  },
+  "devDependencies": {
+    "@wordpress/dataviews": "^4.4.0",
+    "@wordpress/scripts": "^25.0.0",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "watch": "^1.0.2"
+  }
+}

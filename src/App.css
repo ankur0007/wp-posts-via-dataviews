@@ -1,0 +1,36 @@
+/* Import DataViews styles */
+@import "@wordpress/dataviews/build-style/style.css"; 
+
+/** App.css
+ * Add your custom styles here.
+ */ 
+
+ /* Wrapper around DataViews table */
+.postview-wrapper {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 6px;
+}
+
+/* Top header with Add New button */
+.postview-header {
+    display: flex;
+    justify-content: flex-end; /* Right align */
+    margin-bottom: 15px;
+}
+
+/* Add New Post button */
+.postview-add-btn {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background 0.2s ease;
+}
+
+.postview-add-btn:hover {
+    background-color: #005177;
+}
