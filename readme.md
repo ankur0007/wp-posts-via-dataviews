@@ -1,4 +1,4 @@
-# Dataview Sample Plugin
+# PostViews
 
 Displays WordPress posts in a table using the DataViews component from @wordpress/dataviews, directly in the wp-admin dashboard. Easy and faster than default posts table.
 
