@@ -1,6 +1,8 @@
 # PostViews
 
-Displays WordPress posts in a table using the DataViews component from @wordpress/dataviews, directly in the wp-admin dashboard. Easy and faster than default posts table.
+Displays WordPress posts in a table using the DataViews component from @wordpress/dataviews, directly in the wp-admin dashboard. Easy and faster than the default posts table.
+
+![Plugin Screenshot](screenshots/screenshot-1.png)
 
 ## Features
 - Display posts using DataViews in wp-admin
